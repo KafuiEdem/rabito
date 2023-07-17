@@ -1,0 +1,41 @@
+
+
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: #1ba6d0;
+    margin-left: 400px;
+    margin-right:auto;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.page{
+    width: auto;
+    height: auto;
+    margin-right: 130px;
+    
+}
+.page_hold input{
+    width: 50px;
+    float: right;
+}
+.screen{
+    width: 280px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+.ans{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.ans button {
+    width: 50px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    background-color: black;
+    color: white;
+}

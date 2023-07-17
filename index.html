@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" /> -->
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="./css.css" type="text/css">
+    <title>Rabito</title>
+</head>
+<body>
+    <div class="container">
+         <div class="screen">
+            <p id="ans"></p>
+         </div>
+         <div class="page">
+            <div class="page_hold">
+                <input type="text" id="num1">
+            </div>
+            <div class="page_hold">
+                <input type="text" id="num2">
+            </div>
+            <div class="page_hold">
+                <input type="text" id="opera">
+            </div>
+        </div>
+        <div class="ans">
+            <button type="submit" id="cal" py-click="answer">=</button> 
+        </div> 
+    </div>
+    <py-script src="./index.py">
+    </py-script>
+</body>
+</html>
