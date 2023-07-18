@@ -17,26 +17,31 @@ def clear():
     num2.clear()
     oper.clear()
 
-def answer(*a,**ab):
-    result = f"Num1={num1.value} Num2={num2.vlaue} Oper={oper.value}"
-    screen.write(result)
- 
-    
-    # if oper.value == "+":
-    #     result = add(int(num1.value),int(num2.value))
-    #     screen.write(result)
-    # elif oper.value =="-":
-    #     result = sub(int(num1.value),int(num2.value))
-    #     screen.write(result)
 
-    # elif oper.value =="x" or oper.value =="*":
-    #     result = mul(int(num1.value),int(num2.value))
-    #     screen.write(result)
-    # elif oper.value =="/":
-    #      result = div(int(num1.value),int(num2.value))
-    #      screen.write(result)
-    # else:
-    #     screen.write(0)
-    #     clear()
+def answer(*a,**ab):
+    if oper.value == "+":
+        result = add(int(num1.value),int(num2.value))
+        ans =f"{num1.value} {oper.value} {num2.value} = {result}"
+        screen.write(ans)
+        clear()
+    elif oper.value =="-":
+        result = sub(int(num1.value),int(num2.value))
+        ans =f"{num1.value} {oper.value} {num2.value} = {result}"
+        screen.write(ans)
+        clear()
+
+    elif oper.value =="x" or oper.value =="*":
+        result = mul(int(num1.value),int(num2.value))
+        ans =f"{num1.value} {oper.value} {num2.value} = {result}"
+        screen.write(ans)
+        clear()
+    elif oper.value =="/":
+         result = div(int(num1.value),int(num2.value))
+         ans =f"{num1.value} {oper.value} {num2.value} = {result}"
+         screen.write(ans)
+         clear()
+    else:
+        screen.write("Math Error")
+        clear()
 
     

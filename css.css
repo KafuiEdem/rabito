@@ -9,33 +9,68 @@
     margin-bottom: 16px;
     padding: 16px;
 }
-
+.container p{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    font-weight: bold;
+}
 .page{
     width: auto;
     height: auto;
     margin-right: 130px;
+    position: absolute;
     
+}
+.page_hold{
+    float: left; 
 }
 .page_hold input{
     width: 50px;
-    float: right;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #b0abab;
+}
+.screen p{
+    color: #fff;
+    font-size: 2em;
+    padding: 6px;
+    position: relative;
+    margin-top: -10px;
 }
 .screen{
     width: 280px;
     height: 30px;
-    background-color: white;
+    background-color: #7d7a7a;
     margin-bottom: 16px;
     margin-left: 50px;
+    padding: 6px;
+    position: absolute;
 }
 .ans{
     margin-top: 80px;
     margin-left: 150px;
+    margin-top: 100px;
+    
 }
 .ans button {
     width: 50px;
     height: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5em;
-    background-color: black;
+    background-color: gray;
     color: white;
+    
+}
+
+.page-container{
+    background-color: aquamarine;
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 50px;
 }
