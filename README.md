@@ -1,16 +1,16 @@
 ## SIMPLE CALCULATOR
 
-This is a small calculator APP created in python using the pyscript framework.
-The APP can perform below arithmatic calcualtion
-+ Addition. 
-+ Subtitution.
-+ Division.
+This is a small calculator APP created in Python using the PyScript framework.
+The APP can perform the following arithmetic calculations:
+
++ Addition
++ Subtraction
++ Division
 + Multiplication
 
-The APP checks if you have entered a digit and perform the calculation for you.
-If you enter any thing apart from a number, then it throws `Math Error`.
+The APP checks if you have entered a digit and performs the calculation for you. If you enter anything apart from a number, it throws a `Math Error.`
 
-At the moment, the APP dose not work with decimals.
+Currently, the APP does not work with decimals.
 
 ## First time lunch of APP
 ![first time](simple2.png)
